@@ -1,5 +1,5 @@
-// SPDX-License-Identifier: SEE LICENSE IN LICENSE
-pragma solidity >0.8.0;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.7.0;
 contract SimpleWallet {
 
     mapping (address => uint256) public balances;
